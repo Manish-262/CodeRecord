@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>our team section Using HTML and CSS</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="project1.css">
+
+    <link rel="stylesheet" href="static/css/chat.css">
+    <link rel="stylesheet" href="static/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">Chat with us!
+            <i id="chat-icon" style="color: rgb(71, 71, 71);" class="fa fa-fw fa-comments-o"></i>
+        </button>
+
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- Message Container -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Messages -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+
+                        <!-- User input box -->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg" placeholder="Tap 'Enter' to send a message">
+                                <p></p>
+                            </div>
+
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart" onclick="heartButton()"></i>
+                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send" onclick="sendButton()"></i>
+                            </div>
+                        </div>
+
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="wrapper">
+        <h1>Our Team</h1>
+        <div class="our_team">
+            <div style="border-radius: 30px;" class="team_member">
+                <div class="member_img">
+                    <img style="border-radius: 30px;" src="images/Team/1.jpeg" alt="our_team">
+                    <div class="social_media">
+                        <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+                        <div class="twitter item"><i class="fab fa-twitter"></i></div>
+                        <div class="instagram item"><i class="fab fa-instagram"></i></div>
+                    </div>
+                </div>
+                <h3>Opal Jain</h3>
+                <span>Leader</span>
+                <p>She has good leadership skills and his communication is also well. She manages team well</p>
+            </div>
+            <div style="border-radius: 30px;" class="team_member">
+                <div class="member_img">
+                    <img style="border-radius: 30px;" src="images/Team/2.jpeg" alt="our_team">
+                    <div class="social_media">
+                        <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+                        <div class="twitter item"><i class="fab fa-twitter"></i></div>
+                        <div class="instagram item"><i class="fab fa-instagram"></i></div>
+                    </div>
+                </div>
+                <h3>Manish Kumawat</h3>
+                <span>Web Developer</span>
+                <p>He is a Full stack developer and does his work well always.He has good skills in Web developer</p>
+            </div>
+            <div style="border-radius: 30px;" class="team_member">
+                <div class="member_img">
+                    <img style="border-radius: 30px;" src="images/Team/3.jpeg" alt="our_team">
+                    <div class="social_media">
+                        <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+                        <div class="twitter item"><i class="fab fa-twitter"></i></div>
+                        <div class="instagram item"><i class="fab fa-instagram"></i></div>
+                    </div>
+                </div>
+                <h3>Hemant Kumar</h3>
+                <span>Front-end Developer</span>
+                <p>Hemant has a good front-end developr and his ui design is well also.</p>
+            </div>
+
+            <div style="border-radius: 30px;" class="team_member">
+                <div class="member_img">
+                    <img style="border-radius: 30px;" src="images/Team/4.jpeg" alt="our_team">
+                    <div class="social_media">
+                        <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+                        <div class="twitter item"><i class="fab fa-twitter"></i></div>
+                        <div class="instagram item"><i class="fab fa-instagram"></i></div>
+                    </div>
+                </div>
+                <h3>Dhawan Kumar Nama</h3>
+                <span>Back-end Developer</span>
+                <p>Dhawan's Back-end developing skills are good.He managed data well.</p>
+            </div>
+
+
+
+
+
+
+            <div style="border-radius: 30px;" class="team_member">
+                <div class="member_img">
+                    <img style="border-radius: 30px;" src="images/Team/5.jpeg" alt="our_team">
+                    <div class="social_media">
+                        <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+                        <div class="twitter item"><i class="fab fa-twitter"></i></div>
+                        <div class="instagram item"><i class="fab fa-instagram"></i></div>
+                    </div>
+                </div>
+                <h3>Abhinav Kumar Mittal</h3>
+                <span>Content Manager</span>
+                <p>Abhinav has managed content well.He has good knowledge about many domains.</p>
+            </div>
+
+
+            <div style="border-radius: 30px;" class="team_member">
+                <div class="member_img">
+                    <img style="border-radius: 30px;" src="images/Team/6.jpeg" alt="our_team">
+                    <div class="social_media">
+                        <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+                        <div class="twitter item"><i class="fab fa-twitter"></i></div>
+                        <div class="instagram item"><i class="fab fa-instagram"></i></div>
+                    </div>
+                </div>
+                <h3>Radhika Baheti</h3>
+                <span>Analyst</span>
+                <p>Radhika has analysed web page well and managed perfectly, her all suggestion was very helpfull </p>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="static/scripts/responses.js"></script>
+    <script src="static/scripts/chat.js"></script>
+
+
+
+
+</body>
+
+</html>
